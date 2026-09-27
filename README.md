@@ -1,35 +1,38 @@
 void main() {
-  print("Hello World');
-  print('Hello World');
-  String? name 'Kurt cobain';
-  print(name);
-  int jumlah = 10;
-  print (jumlah);
 
-//nilai ini ga bisa di ubah jika sudah didefinisikan
+  print("=== PEMBELIAN TIKET KONSER ===");
+  print("Selamat datang di layanan pemesanan tiket");
 
+  String? name = 'Muhamad Sheva';
+  print("Nama Pemesan : $name");
 
-/*
-*Nilai ini tidak di rubah
-*
-*/
+  int jumlah = 2;
+  print("Jumlah Tiket : $jumlah");
 
-jika adalah di definisikan sebagai int
+  // nilai ini ga bisa diubah jika sudah didefinisikan
 
-//jumlah 10.5;
-//print (jumlah);
-name 'null';
-print (name);
+  /*
+   * Nilai ini tidak diubah
+   *
+   */
 
-name = null;
-print (name);
+  // jika sudah didefinisikan sebagai int
 
-String? description:
-description = 'ini keterangan';
-print (description);
-description = null ;
+  // jumlah = 10.5;
+  // print(jumlah);
 
-String temporary description ?? 'tidak ada description'
+  name = null;
+  print("Nama Pemesan : $name");
 
-print(temporary);
+  String? description;
+  description = 'Tiket VIP - Konser Musik';
+  print("Jenis Tiket : $description");
+
+  description = null;
+
+  String temporary = description ?? 'Tidak ada keterangan tiket';
+
+  print("Keterangan : $temporary");
+
+  print("=== TRANSAKSI SELESAI ===");
 }
