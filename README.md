@@ -1,12 +1,10 @@
-"# Belajar GitHubpart1" 
 void main() {
-
-print("Hello World');
-print('Hello World');
-String? name 'Kurt cobain';
-print(name);
-int jumlah = 10;
-print (jumlah);
+  print("Hello World');
+  print('Hello World');
+  String? name 'Kurt cobain';
+  print(name);
+  int jumlah = 10;
+  print (jumlah);
 
 //nilai ini ga bisa di ubah jika sudah didefinisikan
 
